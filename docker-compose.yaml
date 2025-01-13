@@ -1,0 +1,12 @@
+services:
+  app:
+    tty: true
+    restart: always
+    image: prod_setup
+    container_name: prod_setup
+    build: .
+    ports:
+      - 8080:8080
+    env_file:
+      - .env
+    command: air -c .air.toml
