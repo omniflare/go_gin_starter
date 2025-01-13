@@ -1,6 +1,3 @@
-Certainly! Below is the `README.md` file formatted for direct copying:
-
-```markdown
 # 🚀 Gin + Go Authentication Starter App
 
 Welcome to the **Gin + Go Authentication Starter App**! 🎉 This project is a template to help you quickly get started with a **Go** application using the **Gin** framework for creating secure APIs, a robust **authentication mechanism**, **graceful error handling**, and server management. It also integrates **PostgreSQL** for database management using **GORM** and **Resend** for sending emails. 📧
